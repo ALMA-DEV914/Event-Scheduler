@@ -11,7 +11,6 @@ import {
     EMAIL_ERROR,
     PASSWORD,
     PASSWORD_ERROR,
-    USER_API_ROUTE,
     USER_ERRORS
 } from "../../constants";
 
@@ -84,7 +83,7 @@ class SigninForm extends Component {
         this.setState({ isWaitingApi: true });
         // make a request to api
         axios
-            .post(`${USER_API_ROUTE}/login`, user)
+            .post("/login", user)
             .then(res => {
                 // reset state then close modal
                 this.setState({ ...this.initialState });

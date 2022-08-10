@@ -61,8 +61,8 @@ app.use((req, res, next) => {
 app.use(requestLogger);
 
 // use routes
-app.use(`${BASE_API_ROUTE}/users`, userRouter);
-app.use(`${BASE_API_ROUTE}/events`, eventRouter);
+app.use("/users", userRouter);
+app.use("/events", eventRouter);
 
 // Serve up static assets
 if (process.env.NODE_ENV === "production") {

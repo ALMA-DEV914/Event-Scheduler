@@ -3,16 +3,12 @@ module.exports = {
     // mongoDB URL
     MONGODB_URL:
         process.env.MONGODBURL ||
-        "mongodb://127.0.0.1:27017/event-scheduler",
+        "mongodb://localhost:27017/event-scheduler",
             useNewUrlParser: true,
             useUnifiedTopology: true,
 
     // regular database clean up interval
     REGULAR_CLEAN_INTERVAL: 1000 * 60 * 60 * 24 * 7,
-
-    // our server's base api route, including version
-    BASE_API_ROUTE: "/api/v1",
-
     // JWT secretOrKey
     JWT_SECRET_OR_KEY: process.env.JWTSECRETORKEY || "mySecret",
 
