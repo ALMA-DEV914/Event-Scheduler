@@ -7,7 +7,7 @@ import { logUserOut } from "../../actions/userActions.js";
 import { toast } from "react-toastify";
 import classTogglerBuilder from "../../utils/classTogglerBuilder.js";
 
-import logo from "../../assets/images/cd-logo.svg";
+import logo from "../../assets/images/logo.png";
 import "../../styles/TopBar.css";
 
 class TopBar extends Component {

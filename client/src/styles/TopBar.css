@@ -12,7 +12,7 @@ Login/Signup modal window - by CodyHouse.co
 .cd-main-header {
     position: relative;
     z-index: 2;
-    height: 50px;
+    height: 80px;
     background: #086676;
 }
 
@@ -24,7 +24,7 @@ Login/Signup modal window - by CodyHouse.co
 }
 
 .cd-main-header__logo {
-    width: 30%;
+    width: 20%;
     float: left;
     /* margin: 4px 0 0 5%; */
     margin-left: 5%;
@@ -44,9 +44,13 @@ Login/Signup modal window - by CodyHouse.co
 .cd-main-header__logo > .header-title {
     margin-left: 5%;
     white-space: nowrap;
-    /* padding-left: 5%; */
     color: #ffffff;
-    font-size: 1.2em;
+    font-size: 2.0em;
+    font-family: "Georgia";
+}
+.cd-main-header__logo img{
+    width: 20%;
+    border-radius: 100%;
 }
 
 /* .cd-main-header__logo > .header-githubLogo {
