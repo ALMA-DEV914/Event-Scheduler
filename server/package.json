@@ -1,7 +1,7 @@
 {
-  "name": "event-scheduler",
+  "name": "event-scheduler-server",
   "version": "1.0.0",
-  "description": "An event schedule web application, inspired by codyHouse's simple-schedule template",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "mocha",

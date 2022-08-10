@@ -1,7 +1,6 @@
 // Load environment variables in development
-if (process.env.NODE_ENV === "development") {
-  require("dotenv").config();
-}
+require("dotenv").config();
+
 
 // Bring in express, body parser, mongoose, path and passport authenticator
 const auth = require("./auth/auth.js"),
@@ -107,9 +106,7 @@ mongoose
   .connect(MONGODB_URL, {
     useNewUrlParser: true,
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
+    useUnifiedTopology: true
   })
   .then(() => logger.info("DB connected!"))
   .then(() => {

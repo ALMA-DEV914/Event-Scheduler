@@ -16,7 +16,7 @@ module.exports = {
     BASE_API_ROUTE: "/api/v1",
 
     // JWT secretOrKey
-    JWT_SECRET_OR_KEY: process.env.JWTSECRETORKEY || "secret",
+    JWT_SECRET_OR_KEY: process.env.JWTSECRETORKEY || "mySecret",
 
     // Options for passport-jwt authentication
     JWT_AUTH_OPTIONS: {
@@ -25,7 +25,7 @@ module.exports = {
     },
 
     // port to listen on
-    PORT: process.env.PORT || 8000,
+    PORT: process.env.PORT || 3001,
 
     // token expires after 3 days
     // unit is SECOND, when value is number
