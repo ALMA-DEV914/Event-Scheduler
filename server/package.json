@@ -42,13 +42,5 @@
     "test": "test"
   },
   "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ALMA-DEV914/Event-Scheduler.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ALMA-DEV914/Event-Scheduler/issues"
-  },
-  "homepage": "https://github.com/ALMA-DEV914/Event-Scheduler#readme"
+  "license": "ISC"
 }
