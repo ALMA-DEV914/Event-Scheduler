@@ -1,6 +1,6 @@
 // Load environment variables in development
 require("dotenv").config();
-
+const dotenv=require('dotenv');
 
 // Bring in express, body parser, mongoose, path and passport authenticator
 const auth = require("./auth/auth.js"),
