@@ -7,7 +7,7 @@
   "static/js/1.31fe8227.chunk.js.map": "/static/js/1.31fe8227.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/UserForm.css": "/static/media/cd-icon-email.c843dc72.svg",
+  "static/media/UserForm.css": "/static/media/cd-icon-password.30dd9748.svg",
   "static/media/cd-logo.svg": "/static/media/cd-logo.e688427b.svg",
   "static/media/github-brands.svg": "/static/media/github-brands.3959958a.svg",
   "static/media/LoginModal.css": "/static/media/cd-icon-close.dd9be9ed.svg",
@@ -15,6 +15,6 @@
   "static/css/1.d5369297.chunk.css.map": "/static/css/1.d5369297.chunk.css.map",
   "static/css/main.73e7ba16.chunk.css.map": "/static/css/main.73e7ba16.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.4b81130ad4da36678d9c55ffbcea99c8.js": "/precache-manifest.4b81130ad4da36678d9c55ffbcea99c8.js",
+  "precache-manifest.b5ebb7bcd49e9da0e0d7e713240301e7.js": "/precache-manifest.b5ebb7bcd49e9da0e0d7e713240301e7.js",
   "service-worker.js": "/service-worker.js"
 }
