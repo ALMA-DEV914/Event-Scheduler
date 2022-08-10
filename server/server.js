@@ -105,7 +105,6 @@ mongoose.set("useFindAndModify", false);
 mongoose
   .connect(MONGODB_URL, {
     useNewUrlParser: true,
-    useNewUrlParser: true,
     useUnifiedTopology: true
   })
   .then(() => logger.info("DB connected!"))
