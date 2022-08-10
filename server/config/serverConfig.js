@@ -6,8 +6,6 @@ module.exports = {
         "mongodb://localhost:127.0.0.1/event-scheduler",
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            useCreateIndex: true,
-            useFindAndModify: false,
 
     // regular database clean up interval
     REGULAR_CLEAN_INTERVAL: 1000 * 60 * 60 * 24 * 7,
