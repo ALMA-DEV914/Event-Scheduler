@@ -7,7 +7,7 @@
   "static/js/1.f59f7403.chunk.js.map": "/static/js/1.f59f7403.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/UserForm.css": "/static/media/cd-icon-email.c843dc72.svg",
+  "static/media/UserForm.css": "/static/media/cd-icon-username.ff2dc530.svg",
   "static/media/logo.png": "/static/media/logo.60625431.png",
   "static/media/github-brands.svg": "/static/media/github-brands.3959958a.svg",
   "static/media/linkedIn-icon.svg": "/static/media/linkedIn-icon.3f261217.svg",
@@ -16,6 +16,6 @@
   "static/css/main.53537f4d.chunk.css.map": "/static/css/main.53537f4d.chunk.css.map",
   "static/css/1.d540964d.chunk.css.map": "/static/css/1.d540964d.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.d44b9374f1008c7230083bdad648f129.js": "/precache-manifest.d44b9374f1008c7230083bdad648f129.js",
+  "precache-manifest.358e49030ffb7c65cb75f6981c2f23cd.js": "/precache-manifest.358e49030ffb7c65cb75f6981c2f23cd.js",
   "service-worker.js": "/service-worker.js"
 }

@@ -3,7 +3,7 @@ module.exports = {
     // mongoDB URL
     MONGODB_URL:
         process.env.MONGODBURL ||
-        "mongodb://localhost:27017/event-schedule-server",
+        "mongodb://localhost:127.0.0.1/event-scheduler",
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useCreateIndex: true,
